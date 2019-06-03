@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=19FGEI0e2ra4NDZapNuA7CeoNuH1k-z7J'
+export_file_url = 'https://drive.google.com/open?id=19FGEI0e2ra4NDZapNuA7CeoNuH1k-z7J'
 export_file_name = 'export.pkl'
 
 classes = ['single_engine_prop_plane','multi_engine_prop_plane','jet_engine_plane','helicopter']
